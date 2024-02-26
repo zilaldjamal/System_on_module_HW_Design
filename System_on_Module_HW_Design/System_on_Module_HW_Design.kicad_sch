@@ -1,0 +1,53 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
+
+  (paper "A3")
+
+  (title_block
+    (title "System_on_Module_HW_Design")
+    (date "2024-02-26")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 29.21 55.88) (size 50.8 44.45) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1f851cb5-1397-413f-afdd-cbb458cc06a4)
+    (property "Sheetname" "SDRAM" (at 29.21 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "SDRAM.kicad_sch" (at 29.21 100.9146 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "System_on_Module_HW_Design"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 107.95 55.88) (size 50.8 44.45) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b99b7beb-9edb-4b71-870b-154064475eb1)
+    (property "Sheetname" "MCU (STM32F446ZEx)" (at 107.95 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 107.95 100.9146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "System_on_Module_HW_Design"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
